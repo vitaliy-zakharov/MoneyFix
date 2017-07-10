@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MoneyFix</title>
+    <link rel="stylesheet" href="core/plugins/reset.css">
+    <link rel="stylesheet" href="core/plugins/animate/animate.css">
+    <link rel="stylesheet" href="core/fonts/Geometria/MyFontsWebfontsKit.css">
+    <link rel="stylesheet" href="core/plugins/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="core/plugins/jquery.ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="core/main.css">
+
+    <script src="core/plugins/modernizr/modernizr.js"></script>
+    <script src="core/plugins/jquery/jquery-1.11.1.min.js"></script>
+    <script src="core/plugins/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="core/plugins/customSelect/jquery.customSelect.min.js"></script>
+    <script src="core/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="core/plugins/cookie/jquery.cookie.js"></script>
+    <script src="core/plugins/validate/jquery.validate.min.js"></script>
+    <script src="core/plugins/jquery.ui/jquery-ui.min.js"></script>
+    <script src="core/plugins/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="core/main.js"></script>
+</head>
+<body class="support">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h1 class="logo js-logo"><a href="index.html"><img src="images/logo.png" alt="" width="59" height="56"> <img src="images/site-name.png" class="hide" alt="" width="144" height="27"  ></a></h1>
+                <a href="#" class="mobile-btn js-mobile-btn tablet-show mobile-show"></a>
+                <nav class="main-navigation js-navigation desktop-show">
+                    <ul>
+                        <li><a href="index.html">Купить</a></li>
+                        <li><a href="team.html">Разработчик</a></li>
+                        <li><a href="support.html">Поддержка</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+                <a href="" class="language desktop-show">Eng</a>
+                <div class="social js-social desktop-show">
+                    <span>Самые последние новости на страницах MoneyFix в соцсетях</span>
+                    <ul>
+                        <li><a href="#" class="fb"></a></li>
+                        <li><a href="#" class="yt"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="mobile-navigation js-mobile-navigation"></div>
+        <div class="features js-features tablet-show">
+            <ul>
+                <li><a href="features.html#feature-1" class="ico1"></a></li>
+                <li><a href="features.html#feature-2" class="ico2"></a></li>
+                <li><a href="features.html#feature-3" class="ico3"></a></li>
+                <li><a href="features.html#feature-4" class="ico4"></a></li>
+                <li><a href="features.html#feature-5" class="ico5"></a></li>
+                <li><a href="features.html#feature-6" class="ico6"></a></li>
+                <li><a href="features.html#feature-7" class="ico7"></a></li>
+            </ul>
+        </div>
+        <main class="content">
+            <div class="container">
+                <div class="support-info js-support-info desktop-show">
+                    <h2>Служба поддержки MoneyFix</h2>
+                    <p>Ни один вопрос не останется без ответа! Делитесь с нами впечатлениями и тем, чего вам не хватает - мы постараемся учесть это в будущих обновлениях.</p>
+                </div>
+                <div class="support-form js-support-form desktop-show">
+                    <header class="form-header">
+                        <h3 class="form-title">Служба поддержки</h3>
+                    </header>
+                    <div class="form-wrapper">
+                        <form id="sp-form-desktop" class="js-validate-form">
+                            <p>Выберите тему вашего обращения:</p>
+                            <select name="#" class="select-style js-custom-select">
+                                <option value="1">Супер приложение, но...</option>
+                                <option value="2">Нашли ошибку</option>
+                            </select>
+                            <input type="text" name="name" value="" class="form-name" placeholder="Ваше имя">
+                            <input type="text" name="email" value="" class="form-email" placeholder="Ваш e-mail">
+                            <textarea name="message"  class="message" placeholder="Текст вашего обращения"></textarea>
+                            <div class="send-wrapper">
+                                <input type="submit" value="Отправить" class="send js-send">
+                                <div class="thank js-thank">Спасибо!</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-tnx js-form-tnx">
+                        <p>Спасибо за ваше обращение!<br>
+                        Мы ответим вам в течении 24 часов.</p>
+                        <a href="#" class="close js-close">Закрыть</a>
+                    </div>
+                </div>
+                <p class="check-version js-check-version desktop-show" style="display:none;">Убедитесь, что у вас последняя версия приложения <a href="#">1.1</a></p>
+                <div class="support-form-mobile js-support-form-mobile tablet-show mobile-show">
+                    <div class="inset">
+                        <div class="top-text">
+                            <h3>Служба поддержки MoneyFix</h3>
+                            <p>Ни один вопрос не останется без ответа! <br>
+                            Делитесь с нами впечатлениями и тем, чего вам не хватает — мы постараемся учесть это в будущих обновлениях.</p>
+                            <h3>Выберите тему вашего обращения:</h3>
+                        </div>
+                        <div class="mobile-form js-mobile-form">
+                                <a href="#" class="theme js-theme">
+                                    Нашли ошибку
+                                </a>
+                                <div class="this-form js-this-form">
+                                   <form class="js-validate-form">
+                                        <div class="inner">
+                                            <input type="text" name="name" value="" class="form-name-mobile" placeholder="Ваше имя">
+                                            <input type="text" name="email" value="" class="form-email-mobile" placeholder="Ваш e-mail">
+                                            <textarea name="message"  class="message-mobile" placeholder="Текст вашего обращения"></textarea>
+                                        </div>
+                                        <div class="send-wrapper">
+                                            <input type="submit" value="Отправить" class="send-mobile js-send">
+                                            <div class="thank js-thank">Спасибо!</div>
+                                        </div>
+                                    </form> 
+                                </div>
+                                <a href="#" class="theme js-theme">
+                                    Ваш отзыв о MoneyFix
+                                </a>
+                                <div class="this-form js-this-form">
+                                   <form class="js-validate-form">
+                                        <div class="inner">
+                                            <input type="text" name="name" value="" class="form-name-mobile" placeholder="Ваше имя">
+                                            <input type="text" name="email" value="" class="form-email-mobile" placeholder="Ваш e-mail">
+                                            <textarea name="message"  class="message-mobile" placeholder="Текст вашего обращения"></textarea>
+                                        </div>
+                                        <div class="send-wrapper">
+                                            <input type="submit" value="Отправить" class="send-mobile js-send">
+                                            <div class="thank js-thank">Спасибо!</div>
+                                        </div>
+                                    </form> 
+                                </div>
+                                <a href="#" class="theme js-theme">
+                                    Общие вопросы
+                                </a>
+                                <div class="this-form js-this-form">
+                                   <form class="js-validate-form">
+                                        <div class="inner">
+                                            <input type="text" name="name" value="" class="form-name-mobile" placeholder="Ваше имя">
+                                            <input type="text" name="email" value="" class="form-email-mobile" placeholder="Ваш e-mail">
+                                            <textarea name="message"  class="message-mobile" placeholder="Текст вашего обращения"></textarea>
+                                        </div>
+                                        <div class="send-wrapper">
+                                            <input type="submit" value="Отправить" class="send-mobile js-send">
+                                            <div class="thank js-thank">Спасибо!</div>
+                                        </div>
+                                    </form> 
+                                </div>
+                        </div>
+                        <div class="check-version-tablet tablet-show">
+                            Убедитесь, что у вас последняя версия приложения <a href="#">1.1</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="footer-pusher"></div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer-logo desktop-show mobile-show"><img src="images/footer-logo.png" alt="" width="108" height="20"></h3>
+            <p class="copy">Все права защищены. ООО “Крик Дизайн”, 2014</p>
+            <h3 class="footer-logo tablet-show"><img src="images/footer-logo-white.png" alt="" width="108" height="20"></h3>
+            <a href="#" class="share desktop-show"></a>
+            <div class="social-footer tablet-show">
+                <ul>
+                    <li><a href="#" class="fb"></a></li>
+                    <li><a href="#" class="yt"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
